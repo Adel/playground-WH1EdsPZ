@@ -1,11 +1,14 @@
-title: Haskell Project
+title: From Java to Haskell
+cover: cover.png
 plan:
-  - title: Welcome
+  - title: "About this Playground"
+    description: "Introduction to this playground"
     statement: markdowns/00_AboutThisCourse/01_welcome.md
-  - title: Basics
+  - title: "Basics"
+    description: "Easy to learn"
     plan:
-      - title: From Scratch
-        statement: markdowns/01_basics/01_fromScratch.md
+    - title: "From Scratch"
+      statement: markdowns/01_basics/01_fromScratch.md
 projects:
   haskell:
     root: /haskell-project
