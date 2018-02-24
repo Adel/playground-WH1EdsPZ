@@ -2,8 +2,10 @@ title: From Java to Haskell
 cover: cover.png
 plan:
   - title: "About this Playground"
-    description: "Introduction to this playground"
-    statement: markdowns/00_AboutThisCourse/01_welcome.md
+    description: "A resume of this playground"
+    plan:
+    - title: "Introduction"
+      statement: markdowns/00_AboutThisCourse/01_welcome.md
   - title: "Basics"
     description: "Easy to learn"
     plan:
