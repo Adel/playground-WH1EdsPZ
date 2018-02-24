@@ -1,4 +1,4 @@
-# From Java to Haskell
+# About this playground
 
 Welcome to this haskell playground!
 

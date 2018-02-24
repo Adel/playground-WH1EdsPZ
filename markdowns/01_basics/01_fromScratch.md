@@ -1,6 +1,6 @@
 # Basics
 
-## Slow and easy
+## Slow and easy
 
 ### Simple arithmetic
 
@@ -35,6 +35,6 @@ Notice that comments starts with "--"
 
 ## Try it
 ```haskell runnable
-main = putStrLn "change me"
+main = print (1 + 2 + 3)
 ```
 
