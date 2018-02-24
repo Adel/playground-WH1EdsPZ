@@ -1,7 +1,11 @@
 title: Haskell Project
 plan:
-- title: Welcome
-  statement: markdowns/00_AboutThisCourse/01_welcome.md
+  - title: Welcome
+    statement: markdowns/00_AboutThisCourse/01_welcome.md
+  - title: Basics
+    plan:
+      - title: From Scratch
+        statement: markdowns/01_basics/01_fromScratch.md
 projects:
   haskell:
     root: /haskell-project
