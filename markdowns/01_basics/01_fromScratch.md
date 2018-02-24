@@ -26,12 +26,12 @@ True || False
 "techio" == "techio"
 ```
 
-## Haskell is statically typed
+## Haskell is statically and strongly typed
 ```haskell
 10 == True -- will result in an error
 ```
 
-Notice that comments starts with "--"
+* Notice that comments starts with "--"
 
 ## Try it
 
