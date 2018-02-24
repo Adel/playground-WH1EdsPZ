@@ -21,12 +21,12 @@ to imperative programming to use a language which does not have imperative ways 
 I don't know, but We will find out. I started reading, a few days ago, [Learn you haskell for Great Good!](http://learnyouahaskell.com), and it seems startling at first.<br/>
 When I discovered this platform, I thought I could share directly with others what I might learn, and it might be a motive to continue the haskell journey.
 
-#### Is this playground a good way to learn haskell?   
+#### Is this playground a good way to learn haskell?   
 There is not warranty as to the results.<br/>
 It might be best to read the above-mentioned book and there are many good books or articles on this subject.
 
 ## Github repository
-Is found [here](https://github.com/Adel/playground-WH1EdsPZ.git)
+Is found [here](https://github.com/Adel/playground-WH1EdsPZ.git)<br/>
 Any help is appreciated. 
 
 ## Thanks
