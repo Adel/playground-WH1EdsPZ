@@ -26,7 +26,7 @@ There is not warranty as to the results.<br/>
 It might be best to read the above-mentioned book and there are many good books or articles on this subject.
 
 ## Github repository
-Is found [here](https://github.com/Adel/playground-WH1EdsPZ.git)<br/>
+Is found [here](https://github.com/Adel/playground-WH1EdsPZ.git).<br/>
 Any help is appreciated. 
 
 ## Thanks
