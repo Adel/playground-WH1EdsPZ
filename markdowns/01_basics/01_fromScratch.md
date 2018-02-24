@@ -34,7 +34,8 @@ True || False
 Notice that comments starts with "--"
 
 ## Try it
+
 ```haskell runnable
-main = print (1 + 2 + 3)
+main = print ("changeMe")
 ```
 
