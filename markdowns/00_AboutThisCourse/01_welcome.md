@@ -3,7 +3,7 @@
 Welcome to this haskell playground!<br/>
 This playground will be used to share my journey in learning haskell and functional programming.
 
-##Disclaimer
+## Disclaimer
 This haskell journey of mine has just started. Coming from an imperative programming background, and new to haskell,
 there is no warranty as to the results of this course.
 
