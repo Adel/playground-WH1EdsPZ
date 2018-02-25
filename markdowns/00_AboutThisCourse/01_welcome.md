@@ -15,16 +15,15 @@ there is no warranty as to the results of this course.
 # Prerequisites
 This is a beginner's to haskell course, but a prior knowledge of programming or programming languages is required.
 
-### Why learn a functional programming language?
+## Why learn a functional programming language?
 Some of the reasons might be:
 * To learn a new paradigm and become a better developer.
 * Higher order functions like map, filter (even flatmap) became part of the imperative programming tools, what else can we benefit from?
 * For fun
 
-### Is haskell difficult to learn?
+## Is haskell difficult to learn?
 Coming from an imperative background, Haskell seems startling at first.
 This playground aim is to make things easier, but learning step by step.<br/>
-
 
 #### Resources
 * [Learn you haskell for Great Good!](http://learnyouahaskell.com)
