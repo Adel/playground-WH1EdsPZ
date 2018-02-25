@@ -1,37 +1,35 @@
 # About this playground
 
-Welcome to this haskell playground!
+Welcome to this haskell playground!<br/>
+This playground will be used to share my journey in learning haskell and functional programming.
 
-## Disclaimer
-For starters, I don't know anything about Haskell. I am familiar with other languages (Java, Javascript mainly),
-and I don't know more than the average programmer on functional programming paradigm. <br/>
-However, I was always interested in functional programming, and as happy as I am using some higher order functions which made it through and are used in mainstream languages (map, filter...)
-I always wanted to learn more about functional programming concepts. <br/>
+##Disclaimer
+This haskell journey of mine has just started. Coming from an imperative programming background, and new to haskell,
+there is no warranty as to the results of this course.
 
-#### Why learn haskell instead of any other functional language?
+## Aim
+* Getting to know haskell
+* Learn some functional programming concepts.
+* Coding, coding and more coding in haskell.
 
+# Prerequisites
+This is a beginner's to haskell course, but a prior knowledge of programming or programming languages is required.
+
+### Why learn a functional programming language?
 Some of the reasons might be:
+* To learn a new paradigm and become a better developer.
+* Higher order functions like map, filter (even flatmap) became part of the imperative programming tools, what else can we benefit from?
+* For fun
 
-* Whenever we read about functional programming languages, haskell is always mentioned.
-* To learn best functional programming, it might be easier for someone used
-to imperative programming to use a language which does not have imperative ways of solving problems.
-   
+### Is haskell difficult to learn?
+Coming from an imperative background, Haskell seems startling at first.
+This playground aim is to make things easier, but learning step by step.<br/>
 
-#### Is haskell difficult to learn?
 
-I don't know, but We will find out. I started reading, a few days ago, [Learn you haskell for Great Good!](http://learnyouahaskell.com), and it seems startling at first.<br/>
-When I discovered this platform, I thought I could share directly with others what I might learn, and it might be a motive to continue the haskell journey.
-
-#### Is this playground a good way to learn haskell?   
-
-There is not warranty as to the results.<br/>
-It might be best to read the above-mentioned book and there are many good books or articles on this subject.
+#### Resources
+* [Learn you haskell for Great Good!](http://learnyouahaskell.com)
 
 ## Github repository
 
 Is found [here](https://github.com/Adel/playground-WH1EdsPZ.git).<br/>
 Any help is appreciated. 
-
-## Thanks
-* Thanks to JBM who created the playground template (without wich I would have started this)
-* To the author of the above-mentioned book (learn you haskell for Great Good!)

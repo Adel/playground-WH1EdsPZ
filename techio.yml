@@ -1,4 +1,4 @@
-title: From Java to Haskell
+title: An imperative programmer dive into haskell
 cover: cover.png
 plan:
   - title: "About this Playground"
@@ -11,6 +11,8 @@ plan:
     plan:
     - title: "From Scratch"
       statement: markdowns/01_basics/01_fromScratch.md
+    - title: "Functions"
+      statement: markdowns/01_basics/02_functions.md
 projects:
   haskell:
     root: /haskell-project
