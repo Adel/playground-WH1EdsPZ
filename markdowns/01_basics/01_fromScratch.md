@@ -8,6 +8,11 @@ For starters, here is the classic hello world example in haskell.
 ```haskell runnable
 main = putStrLn "hello, world"
 ```
+> main is the entry point of a haskell program (similar to main in C, java etc)
+
+> putStrLn is a function (more on that later)
+
+> No parentheses needed for the function call
 
 ## Slow and easy
 Here are some haskell lines which should be familiar to all imperative programmers.
