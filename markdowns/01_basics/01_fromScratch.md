@@ -35,10 +35,10 @@ True || False
 ### Equality
 * /= instead of != for inequality
 ```haskell
-10 == 10 -- is true
-1 /= 10 -- is true
-"techio" == "techio" --is true
-1 == 10 -- is false
+10 == 10 -- is True
+1 /= 10 -- is True
+"techio" == "techio" --is True
+1 == 10 -- is False
 ```
 
 ## Haskell is statically and strongly typed
