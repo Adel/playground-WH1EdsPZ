@@ -8,11 +8,10 @@ For starters, here is the classic hello world example in haskell.
 ```haskell runnable
 main = putStrLn "hello, world"
 ```
-> main is the entry point of a haskell program (similar to main in C, java etc)
-
-> putStrLn is a function (more on that later)
-
-> No parentheses needed for the function call
+A few comments:
+* main is the entry point of a haskell program
+* putStrLn is a function that outputs a string to the terminal.
+* No parentheses needed for the function call.
 
 ## Slow and easy
 Here are some haskell lines which should be familiar to all imperative programmers.
@@ -50,7 +49,15 @@ True || False
 * Notice that comments starts with "--"
 
 ## Try it
-Change the code inside the print and
 ```haskell runnable
 main = print ("changeMe")
+```
+* print is a function that output any type of value to terminal.
+
+> Why do we add parentheses for the print function since we saw they are not required?<br/>
+It has to do with operator and function precedence. (more on that later)<br/>
+
+```haskell
+print "changeMe" -- works
+print 1 + 1 -- error
 ```
