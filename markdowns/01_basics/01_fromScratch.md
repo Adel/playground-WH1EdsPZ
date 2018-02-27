@@ -42,6 +42,8 @@ True || False
 ```
 
 ## Haskell is statically and strongly typed
+* Zero is not synonymous with False in Haskell.
+
 ```haskell
 10 == True -- will result in an error
 ```
@@ -61,3 +63,7 @@ It has to do with operator and function precedence. (more on that later)<br/>
 print "changeMe" -- works
 print 1 + 1 -- error
 ```
+
+## Test
+
+@[Launch the server]({ "stubs": [], "command": "ghci" })
