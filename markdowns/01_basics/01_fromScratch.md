@@ -66,4 +66,4 @@ print 1 + 1 -- error
 
 ## Test repl
 
-@[Test in repl]({ "stubs": [], "command": "echo 'TECHIO> open --static-dir /public_html'" })
+@[Test in repl]({ "stubs": [], "command": "echo 'TECHIO> open --static-dir /haskell-project/data/public_html'" })
