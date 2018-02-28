@@ -66,4 +66,4 @@ print 1 + 1 -- error
 
 ## Test repl
 
-@[Test in repl]({ "stubs": [], "command": "echo 'TECHIO> open --static-dir /project/target/data/public_html'" })
+@[Test it in REPL]({ "stubs": [], "command": "echo 'TECHIO> open --static-dir /project/target/data/public_html/00_/'" })
