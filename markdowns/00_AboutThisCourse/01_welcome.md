@@ -27,7 +27,7 @@ This playground aim is to make things easier, but learning step by step.<br/>
 
 #### Resources
 * [Learn you haskell for Great Good!](http://learnyouahaskell.com)
-
+* [Real World Haskell](http://book.realworldhaskell.org)
 ## Github repository
 
 Is found [here](https://github.com/Adel/playground-WH1EdsPZ.git).<br/>

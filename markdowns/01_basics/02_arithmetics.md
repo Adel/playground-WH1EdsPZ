@@ -22,7 +22,11 @@ Here are some haskell lines which should be familiar to all imperative programme
 
 ```haskell
 1 + 1
-3 * 10
+```
+* Expressions can also be written in prefix form (the operator precedes its arguments).
+  * The operator must be enclosed in parentheses in the prefix form.
+```haskell
+(+) 1 1
 ```
 
 #### Negative numbers
@@ -31,8 +35,14 @@ A negative number must be surrounded by parentheses.
 ```haskell
 2 + -3 -- error: cannot mix ‘+’ and prefix `-' in the same infix expression
 2 + (-3) -- is fine
+2*-3 -- Error: Variable not in scope: (*-)
+2*(-3) --is fine
 ```
-This might seem annoying, but there are reasons behind this choice of syntax (more on that later).
+This weird syntax is a reasonable trade-off:
+* To avoid ambiguity in parsing expressions like "f-3", which could be understood as:
+  * the function f applied to the negative number -3
+  * or subtracting 3 from the variable f. 
+* Because Haskell let us define new operators. We could for example define the operator "*-"
 
 #### Operator precedence
 
@@ -64,6 +74,8 @@ True || False
 ```haskell
 10 == True -- will result in an error
 ```
+
+* Notice that comments starts with "--"
 
 ## Try it in GHCI REPL
 GHCI is an interactive interpreter and debugger.
