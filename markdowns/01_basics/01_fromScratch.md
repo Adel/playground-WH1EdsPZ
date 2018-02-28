@@ -64,6 +64,6 @@ print "changeMe" -- works
 print 1 + 1 -- error
 ```
 
-## Test
+## Test repl
 
-@[Launch the server]({ "stubs": [], "command": "ghci" })
+@[Test in repl]({ "stubs": [], "command": "echo 'TECHIO> open --static-dir /public_html'" })
