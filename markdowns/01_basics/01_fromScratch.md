@@ -9,12 +9,13 @@ For starters, here is the classic hello world example in haskell.
 main = putStrLn "hello, world"
 ```
 
-A few comments:
+A few comments to explain this example:
+
 * main is the entry point of a haskell program
 * putStrLn is a function that outputs a string to the terminal.
 
 ## Slow and easy
-Here are some haskell lines which should be familiar to all imperative programmers.
+Following are some haskell lines which should be familiar to all imperative programmers.
 
 ### Comments
 A comment in haskell starts with "--"
@@ -57,7 +58,7 @@ not True -- is False
 ```
 
 ### Equality
-* /= instead of != for inequality
+* /= must be used instead of != for inequality
 ```haskell
 10 == 10 -- is True
 1 /= 10 -- is True
