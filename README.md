@@ -1,2 +1,1 @@
-# haskell-template
-Created by JBM
+# Haksell playground for [tech.io](tech.io)

@@ -12,10 +12,15 @@ main = putStrLn "hello, world"
 A few comments:
 * main is the entry point of a haskell program
 * putStrLn is a function that outputs a string to the terminal.
-* parentheses are not required for the function call.
 
 ## Slow and easy
 Here are some haskell lines which should be familiar to all imperative programmers.
+
+### Comments
+A comment in haskell starts with "--"
+```haskell
+-- this is a comment
+```
 
 ### Simple arithmetic
 * Expressions are written in infix form (the operator appears between its operands).
@@ -44,9 +49,11 @@ This might seem annoying, but there are reasons behind this choice of syntax (mo
 ### Boolean algebra
 
 * True and False starts with a capital letter.
+* The function not is equivalent to "!" operator in other programming languages.
 ```haskell
 True && False
 True || False
+not True -- is False
 ```
 
 ### Equality
@@ -54,18 +61,13 @@ True || False
 ```haskell
 10 == 10 -- is True
 1 /= 10 -- is True
-"techio" == "techio" --is True
+1 < 10 -- is True
+"tech.io" == "tech.io" --is True
 1 == 10 -- is False
 ```
 
-## Haskell is statically and strongly typed
-* Zero is not synonymous with False in Haskell.
-
-```haskell
-10 == True -- will result in an error
-```
-
 ## Try it in GHCI REPL
-GHCI is an interactive interpreter and debugger.
+GHCI is an interactive interpreter and debugger. <br/>
+Try writing some haskell code!
 
 @[GHCI]({ "stubs": [], "command": "echo 'TECHIO> open --static-dir /project/target/data/public_html/00_/'" })

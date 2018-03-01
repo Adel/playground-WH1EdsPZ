@@ -11,8 +11,8 @@ plan:
     plan:
     - title: "From Scratch"
       statement: markdowns/01_basics/01_fromScratch.md
-    - title: "Arithmetics"
-      statement: markdowns/01_basics/02_arithmetics.md
+    - title: "Functions"
+      statement: markdowns/01_basics/02_functions.md
 projects:
   haskell:
     root: /haskell-project

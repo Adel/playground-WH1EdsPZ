@@ -25,7 +25,7 @@ Some of the reasons might be:
 Coming from an imperative background, Haskell seems startling at first.
 This playground aim is to make things easier, but learning step by step.<br/>
 
-#### Resources
+#### Other Resources
 * [Learn you haskell for Great Good!](http://learnyouahaskell.com)
 * [Real World Haskell](http://book.realworldhaskell.org)
 ## Github repository
