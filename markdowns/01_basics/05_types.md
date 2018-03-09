@@ -17,7 +17,7 @@ True    -- > Bool
 
 As mentionned in the last section, a string is a list of Char. Thus, the type of "Hello" is [Char].
 
-## Haskell is strongly type.
+### Haskell is strongly type.
  
 Zero is not synonymous with False in Haskell.
 
@@ -41,8 +41,8 @@ We need to explain two new things here:
 
 ### Type inference
 
-If you remember well, we did not define a type for the square function we wrote in the functions section of this chapter <br/>
-However, the compiler did not object our definition.
+If you remember well, we did not define a type for the square function we wrote in the functions section of this chapter.<br/>
+But the compiler did not object our definition.
  
 Here was the function we defined:
 
@@ -51,7 +51,7 @@ square x = x * x
 ```
 <u>How did the compiler knew which return type to associate with the square2 function?</u><br/>
 
-Haskell has type inference ,which mean that concrete types are deduced by the type system when the type can be inferred.<br/>
+Haskell has type inference , which mean that concrete types are deduced by the type system when the type can be inferred.<br/>
 
 ### Typeclasses
 
@@ -66,15 +66,22 @@ square 2.0 -- > 4.0
 The reason is that the compiler inferred the type of the square function to "Num".
 The compiler was able to do this because the operator * takes two numbers and returns a number.<br/>
 
+<u>What is Num?</u><br/>
 Num is a numeric typeclass for all numbers (Int, Float etc).  
 We will discuss typeclasses later on, we can for now see a typeclass as an interface defining some behavior.
 
 
 ## Try it in GHCI REPL
-You can get the type of a value or expression with the ":t" command. For example:
+* You can get the type of a value or expression with the ":t" command. For example:
 ```haskell
 :t "toto"
 ```
-Remember, to define a variable or function, use the let keyword and do not forget about indentation!
+
+ghci commands allows us to define statements on multiple lines but it could not get it to work in the repl.<br/>
+You can still define a function with an explicit type in one line using ";" as in this example:
+ 
+```haskell
+let square :: Int -> Int; square x = x * x
+```
 
 @[GHCI]({ "stubs": [], "command": "echo 'TECHIO> open --static-dir /project/target/data/public_html/00_/'" })
