@@ -49,8 +49,7 @@ Here was the function we defined:
 ```haskell
 square x = x * x
 ```
-<u>How did the compiler knew which return type to associate with the square2 function?</u><br/>
-
+How did the compiler knew which return type to associate with the square function?<br/>
 Haskell has type inference , which mean that concrete types are deduced by the type system when the type can be inferred.<br/>
 
 ### Typeclasses
@@ -66,7 +65,7 @@ square 2.0 -- > 4.0
 The reason is that the compiler inferred the type of the square function to "Num".
 The compiler was able to do this because the operator * takes two numbers and returns a number.<br/>
 
-<u>What is Num?</u><br/>
+What is Num?<br/>
 Num is a numeric typeclass for all numbers (Int, Float etc).  
 We will discuss typeclasses later on, we can for now see a typeclass as an interface defining some behavior.
 
