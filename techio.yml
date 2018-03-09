@@ -18,7 +18,7 @@ plan:
     - title: "Strings"
       statement: markdowns/01_basics/04_strings.md
     - title: "Types"
-      statement: markdowns/01_basics/05_Types.md
+      statement: markdowns/01_basics/05_types.md
 projects:
   haskell:
     root: /haskell-project
