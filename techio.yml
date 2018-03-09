@@ -13,6 +13,10 @@ plan:
       statement: markdowns/01_basics/01_fromScratch.md
     - title: "Functions"
       statement: markdowns/01_basics/02_functions.md
+    - title: "Lists"
+      statement: markdowns/01_basics/03_lists.md
+    - title: "Strings"
+      statement: markdowns/01_basics/04_strings.md
 projects:
   haskell:
     root: /haskell-project

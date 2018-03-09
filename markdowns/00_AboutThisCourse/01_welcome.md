@@ -4,7 +4,7 @@ Welcome to this haskell playground!<br/>
 This playground will be used to share my journey in learning haskell and functional programming.
 
 ## Disclaimer
-This haskell journey of mine has just started. I will try to do my best to clearly explain all the concepts learned.
+This haskell journey of mine has just started. I will try to do my best to clearly explain all the concepts I learned.
 
 ## Aim
 * Getting to know haskell.
