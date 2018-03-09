@@ -28,18 +28,22 @@ we can use an enumeration notation.
 [1..10] -- [1,2,3,4,5,6,7,8,9,10] 
 ```
 We can also specify the size of the step between elements, by providing the second element.
+
 ```haskell
 [1.0,1.25..2] -- [1.0,1.25,1.5,1.75,2.0]
 ```
-##### Characters can also be enumerated
+
+##### Characters can also be enumerated
 
 ```haskell
- ['a'..'z'] -- [1.0,1.25,1.5,1.75,2.0]
+ ['a'..'z'] -- "abcdefghijklmnopqrstuvwxyz"
 ```
 
 ##### Beware of floating numbers
+A loss of precision will be seen when using floating point numbers in a ranges.
+
 ```haskell
-[0.1, 0.3 .. 1] -- "abcdefghijklmnopqrstuvwxyz"
+[0.1, 0.3 .. 1] -- [0.1,0.3,0.5,0.7,0.8999999999999999,1.0999999999999999]
 ```
 
 ## Functions on lists

@@ -5,6 +5,7 @@ This playground will be used to share my journey in learning haskell and functio
 
 ## Disclaimer
 This haskell journey of mine has just started. I will try to do my best to clearly explain all the concepts I learned.
+Please be indulgent :)
 
 ## Aim
 * Getting to know haskell.
@@ -22,7 +23,7 @@ Some of the reasons might be:
 
 ## Is haskell difficult to learn?
 Coming from an imperative background, Haskell seems startling at first.
-This playground aim is to make things easier, but learning step by step.<br/>
+This playground aim is to make things easier, but learning it step by step.<br/>
 
 #### Other Resources
 * [Learn you haskell for Great Good!](http://learnyouahaskell.com)

@@ -44,4 +44,4 @@ main = print (addTen 10)
 ## Your first Haskell function
 
 Write a function that takes a number and return its square.
-@[Square of X is?]({"stubs": ["01_basics/02_/MySquare.hs"], "command": "runhaskell -i/project/target/01_basics/02_ /project/target/01_basics/02_/square_test.hs"})
+@[Write a square of X function]({"stubs": ["01_basics/02_/MySquare.hs"], "command": "runhaskell -i/project/target/01_basics/02_ /project/target/01_basics/02_/square_test.hs"})
