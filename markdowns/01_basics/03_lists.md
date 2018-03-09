@@ -61,7 +61,7 @@ Some available functions on lists:
 |sum|return the sum of all elements in the list|sum [1,2,3]|
 
 
-## Try them in GHCI REPL
+## Try them in ghci REPL
 Try those new functions in ghci REPL
 
 @[GHCI]({ "stubs": [], "command": "echo 'TECHIO> open --static-dir /project/target/data/public_html/00_/'" })
