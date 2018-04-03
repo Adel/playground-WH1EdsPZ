@@ -17,14 +17,6 @@ True    -- > Bool
 
 As mentionned in the last section, a string is a list of Char. Thus, the type of "Hello" is [Char].
 
-### Haskell is strongly type.
- 
-Zero is not synonymous with False in Haskell.
-
-```haskell
-10 == True -- will result in an error
-```
-
 ### Every function has a type
 
 Let's write an addTwo function which adds 2 to an Int. We can specify its type when defining it.
@@ -38,6 +30,25 @@ We need to explain two new things here:
 * First, notice the indentation in the second line. This is because Haskell relies on indentation to reduce the verbosity of the code.
   * This indentation is required.
 * The let keyword is used to define a nested lexical scope. For now, lets just say that the let keyword is needed in ghci repl to define a variable or function.  
+
+### Haskell is strongly type.
+ 
+There is no automatic coercion of types in Haskell.
+
+```haskell
+let square :: Int -> Int
+    square x = x * x
+
+square 2.0 -- will result in an error     
+```
+
+* Non-zero values are not considered True in Haskell.
+
+```haskell
+True && 1 -- will result in an error.
+10 == True -- will result in an error
+```
+
 
 ### Type inference
 
